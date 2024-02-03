@@ -1,0 +1,62 @@
+/* Adjustments for Small Screens */
+@media screen and (max-width: 600px) {
+    .service-image {
+        width: 100%;
+    }
+
+    .service-info {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .order-form {
+        width: 100%;
+    }
+
+    .order-form input {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Adjustments for Medium Screens */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .service-info {
+        width: 60%;
+    }
+
+    .order-form {
+        width: 40%;
+        margin-top: 0;
+    }
+
+    .order-form form {
+        width: 100%;
+    }
+}
+
+/* Adjustments for Large Screens */
+@media screen and (min-width: 901px) {
+    .service-details {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .service-image {
+        margin-right: 20px;
+    }
+
+    .service-info {
+        width: 60%;
+    }
+
+    .order-form {
+        width: 30%;
+        margin-top: 0;
+    }
+
+    .order-form form {
+        width: 100%;
+    }
+}
